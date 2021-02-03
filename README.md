@@ -83,11 +83,11 @@ collection_2015$find(query = '{"Date":"2015-12-20","HomeTeam" : "Real Madrid"}')
 
 #Como podemos ver fue goleada por parte del Real Madrid 10 a 2 al Vallecano xD
 
-#Por último, no cierro la conexión con la BDD
+#Por último, cierro la conexión con la BDD
 rm(collection_2015); rm(match_collection)
 ```
 
-Como muestra del trabajo anterior tengo una captura de la BD creada a partir del código:
+Como muestra del trabajo anterior tengo una captura de la BD creada a partir del código, donde tengo 1520 entradas debido a que se importaron 380 datos más a los 1140 originales ya que hacían falta los datos del 2015.
 
 ![imagen](img/PW7.PNG)
 
